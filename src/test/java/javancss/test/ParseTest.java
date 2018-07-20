@@ -63,7 +63,8 @@ public class ParseTest
         _checkParse(158); // JAVANCSS-48
         _checkParse(159); // default and static method in interface
         _checkParse(160); // java8 lambda and method reference
-        _checkParse(161); // found by cobertura 
+        _checkParse(161); // found by cobertura
+        _checkParse(162); // found by cobertura (TryWithResources) 
 
         _exitSubTest();
     }
